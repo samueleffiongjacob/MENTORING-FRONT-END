@@ -1,0 +1,7 @@
+#!bin/bash
+
+npx create-react-app my-first-react-app
+
+cd my-first-react-app
+
+npm start
