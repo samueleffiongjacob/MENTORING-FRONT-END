@@ -1,0 +1,96 @@
+/* Main Container */
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  gap: 20px;
+}
+
+/* Social Media Bar */
+.social {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Banner Section */
+.banner {
+  width: 100%;
+  text-align: center;
+}
+
+.h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem; /* Adjusted for responsiveness */
+  font-weight: 900;
+  line-height: 1.5;
+  text-align: center;
+  color: #202124;
+}
+
+.highlight {
+  background: linear-gradient(
+    122.15deg,
+    #f9c8bf 3.72%,
+    #f87c61 19.56%,
+    #ab26f8 84.21%,
+    #d75efc 100.63%
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-weight: 900;
+}
+
+/* Description */
+.container-description {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.description {
+  color: #666;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+/* Button Container */
+.button-container {
+  margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .h1 {
+    font-size: 1.5rem; /* Smaller heading for medium screens */
+    line-height: 1.3;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .h1 {
+    font-size: 1.2rem; /* Smaller heading for small screens */
+    line-height: 1.2;
+  }
+
+  .description {
+    font-size: 0.8rem;
+  }
+
+  .social {
+    margin-bottom: 20px;
+  }
+
+  .container-description {
+    padding: 0 15px;
+  }
+}

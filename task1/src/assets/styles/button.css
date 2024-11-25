@@ -1,0 +1,53 @@
+/* Default styling for CustomButton */
+.custom-button {
+    font-size: 14px;
+    padding: 6px 14px;
+    border: none;   /* removes the default border */
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Primary Button Style */
+.custom-button.primary {
+    background: linear-gradient(122.15deg, #F9C8BF 3.72%, #F87C61 19.56%, #AB26F8 84.21%, #D75EFC 100.63%) !important;
+    color: white; /* Optional: ensures text is visible */
+}
+
+.custom-button.primary:hover {
+    background: #ab26f8; /* Slightly darker hover effect */
+    color: #fff;
+}
+
+/* Add more variants if needed */
+.custom-button.secondary {
+    background: #ccc;
+    color: #333;
+}
+
+.custom-button.secondary:hover {
+    background: #999;
+    color: #fff;
+}
+
+/* Remove background and border for link-style buttons */
+.custom-button.link-style {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.custom-button.link-style:hover {
+    color: #0056b3;
+}
+
+/* Add responsive styles for different contexts */
+@media (max-width: 768px) {
+    .custom-button {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}

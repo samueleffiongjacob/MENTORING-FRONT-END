@@ -1,0 +1,67 @@
+/* Social Media Bar Styling */
+.social-media-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: #ffffff; /* White background */
+    border-radius: 50px; /* Rounded corners */
+    padding: 10px 20px; /* Adjust padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    margin: 20px auto; /* Center the bar horizontally */
+}
+  
+/* Text Styling */
+.social-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+  
+/* Icon Container */
+.social-icons {
+    display: flex;
+    gap: 12px;
+}
+  
+/* Base Styling for Icons */
+.social-icon {
+    font-size: 20px;
+    text-decoration: none;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+  
+/* Default Brand Colors */
+.social-icon.youtube { color: #ff0000; }
+.social-icon.youtube-brand { color: #000000; }
+.social-icon.twitter { color: #1da1f2; }
+.social-icon.instagram { color: #e4405f; }
+.social-icon.linkedin { color: #0077b5; }
+.social-icon.facebook { color: #1877f2; }
+.social-icon.tiktok { color: #010101; }
+  
+/* Hover Effects */
+.social-icon:hover {
+    transform: scale(1.1);
+}
+  
+  /* Responsive Adjustments */
+@media (max-width: 768px) {
+    .social-media-bar {
+      flex-wrap: wrap;
+      padding: 10px 15px;
+    }
+  
+    .social-text {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+}
+  
+@media (max-width: 576px) {
+    .social-icon {
+      font-size: 18px;
+    }
+}
+  
