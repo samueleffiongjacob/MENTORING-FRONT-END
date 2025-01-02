@@ -1,0 +1,83 @@
+/* Footer Styling */
+.footer {
+    background-color: #f8f9fa; /* Light grey background */
+    color: #343a40; /* Dark text */
+    padding: 40px 0;
+    border-top: 1px solid #e9ecef;
+}
+
+.social-media{
+  margin-top: 7rem;
+}
+.footer-heading {
+    font-size: 16px;
+    font-weight: 600;
+    color: #212529;
+    margin-bottom: 15px;
+}
+  
+.footer-link {
+    font-size: 14px;
+    color: #495057;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.text-me{
+  font-size: 17px;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: #007bff; /* Bootstrap primary color */
+}
+  
+ 
+.logo-img {
+    max-width: 160px;
+    height: auto;
+    object-fit: contain;
+}
+
+
+
+/* Adjust space between sections */
+  .footer .row > .col-md-3 {
+    margin-bottom: 10px; /* Reduce bottom margin between sections */
+}
+  
+.footer .row > .col-md-3:nth-child(3) {
+    margin-bottom: 6px; /* Closer gap between "Product" and "Newsletter" */
+}
+  
+.footer .row > .col-md-3:nth-child(2) {
+    margin-bottom: 6px; /* Closer gap between "Company" and "Product" */
+}
+  
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .footer {
+      padding: 20px 0;
+    }
+    .footer li{
+        padding-left: 15px;
+        font-size: 17px;
+    }
+    .footer-heading {
+      font-size: 14px;
+    }
+    .footer-link,
+    .footer-text {
+      font-size: 13px;
+    }
+    .social-media {
+      margin-top: 20px; /* Adjust for smaller screens */
+    }
+    .footer .row > .col-md-3 {
+      margin-bottom: 20px; /* Reset for better stacking on mobile */
+    }
+    .logo-img {
+        max-width: 140px; /* Slightly smaller for mobile */
+    }
+}
+  

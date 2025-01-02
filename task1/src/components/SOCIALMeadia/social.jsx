@@ -7,8 +7,6 @@ import {
   FaFacebook,
   FaTiktok,
 } from "react-icons/fa";
-import "../../assets/styles/SocialMediaBar.css"; 
-
 const SocialMediaBar = () => {
   const socialLinks = [
     { icon: <FaYoutube />, link: "https://youtube.com", className: "youtube-brand" },

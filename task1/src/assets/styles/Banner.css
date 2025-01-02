@@ -18,7 +18,7 @@
 /* Banner Section */
 .banner {
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 .h1 {
@@ -26,7 +26,7 @@
   font-size: 2rem; /* Adjusted for responsiveness */
   font-weight: 900;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
   color: #202124;
 }
 

@@ -1,0 +1,51 @@
+.txt{
+    color: black;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50.83px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+
+}
+.soon{
+    color: green;
+
+}
+.promise{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.77px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(45, 49, 47, 1);
+
+
+}
+.smallcard img {
+    height: 100px; /* Set a fixed height */
+    width: 100%;   /* Ensure the image fills the width of its container */
+    object-fit: cover; /* Ensures the image maintains aspect ratio and is not distorted */
+    
+  }
+  
+  
+  .smallcard {
+    border: none; /* Removes the border from the card */
+    box-shadow: none; /* Optionally, remove shadow for a cleaner look */
+  }
+  
+  .card-body {
+    padding: 0; /* Adjust padding to ensure images are flush */
+  }
+  
+
+
+
+@media screen and (max-width: 768px) {
+    
+}

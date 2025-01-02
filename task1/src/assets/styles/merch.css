@@ -1,0 +1,111 @@
+.container-custom {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+.main{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+.container-title{
+    font-family: sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.subContainer{
+    width: 100%;
+    padding: 15px; /* Ensure spacing inside the subContainer */
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Push the next container down */
+}
+.merch{
+    padding: 15px;
+    border-radius: 18px;
+    margin-bottom: 20px; /* Add spacing between merch items */
+} 
+.merch .book{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.book .fa-arrow-right {
+    /* width: 15.41px; */
+    height: 13.83px;
+    top: 5.09px;
+    left: 4.5px;
+    margin-left: 40px;
+    gap: 0px;
+    opacity: 0px;
+    color: rgba(0, 0, 0, 1);
+    
+
+  }
+  .fa-arrow-right{
+    /* width: 24px; */
+    height: 24px;
+    top: 34.1px;
+    left: 232px; 
+    padding: 5.09px 4.09px 5.09px 4.5px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  
+.merch.stem{
+    background: rgba(211, 227, 253, 1);
+}
+.merch.skill{
+    background: rgba(227, 227, 227, 1);
+}
+.merch.code{
+    background: rgba(194, 231, 255, 1);
+
+}
+.merch.design{
+    background: rgba(196, 238, 208, 1);
+
+}
+.merch.comic{
+    background: rgba(213, 209, 255, 1);
+
+}
+.merch.game{
+    background: rgba(253, 227, 255, 1);
+
+}
+.merch.flash{
+    background: rgba(238, 255, 190, 1);
+
+}
+.merch.other{
+    background: rgba(255, 225, 225, 1);
+
+}
+
+/*Small devices (tablet, 768px and down)*/
+@media (max-width: 768px) {
+    .container-custom {
+        margin-top: 20px; /* Increase spacing on mobile */
+    }
+
+    .merch {
+        margin-bottom: 1px; /* Add vertical spacing */
+    }
+    .merch .book{
+        font-size: 30px;
+        font-weight: 500;
+        padding: 10px;
+    }
+    .merch.skill,.merch.code, .merch.design, .merch.game,.merch.flash, .merch.other {
+        margin-top: 16px;
+    }
+    .book .fa-arrow-right{
+        margin-left: 3rem;
+    }
+}
+}

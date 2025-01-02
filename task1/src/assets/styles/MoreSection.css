@@ -1,0 +1,42 @@
+/* General Styles */
+.more-head {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.47910216450691223px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+  
+.more-txt {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42.16px;
+    letter-spacing: -0.7186532616615295px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 20px;
+}
+
+.card-img {
+    padding: 0; /* Removes padding around the image container */
+    margin: 0; /* Removes any default margin */
+}
+  
+
+.more-1, .be-more {
+    border: none; /* Removes any card border */
+    border-radius: 0; /* Ensures no rounded edges */
+    overflow: hidden; /* Prevents the image from overflowing outside the card */
+}
+  
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .more-txt {
+      font-size: 16px;
+    }
+}
+  

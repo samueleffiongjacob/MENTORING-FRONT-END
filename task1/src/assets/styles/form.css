@@ -1,0 +1,19 @@
+.subscribe-form {
+    max-width: 600px;
+    margin: 0 auto; /* Center form horizontally */
+    padding: 10px;
+    height: auto; /* Let the content determine the height */
+    display: flex;
+    align-items: center; /* Vertically align content */
+    justify-content: center; /* Horizontally align content */
+}
+
+.subscribe-form .form-control {
+    border-radius: 0.375rem 0 0 0.375rem; /* Rounded left corners */
+    height: calc(2.5rem + 2px); /* Match button height */
+}
+
+.subscribe-form .btn {
+    border-radius: 0 0.375rem 0.375rem 0; /* Rounded right corners */
+    height: calc(2.5rem + 2px); /* Match input height */
+}

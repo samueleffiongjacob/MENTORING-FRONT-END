@@ -1,4 +1,4 @@
-import '../assets/styles/App.css';
+// import '../assets/styles/App.css';
 import Navigations from "../routes/routes"
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {

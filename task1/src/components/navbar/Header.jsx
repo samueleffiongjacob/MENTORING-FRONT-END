@@ -11,7 +11,9 @@ const Header = () => {
             {/* Navbar */}
             <Navbar className='CustomNavbar' bg="white" expand='lg'>
                 <Container>
-                    <Navbar.Brand as={NavLink} to="/" className='branded'><img src={Group} className='img-fluid img' alt='Group'/></Navbar.Brand>
+                    <Navbar.Brand as={NavLink} to="/" className='branded'>
+                        <img src={Group} className='img-fluid img' alt='Group'/>
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id='basic-navbar-nav'>
                         <Nav className='ms-auto'>
