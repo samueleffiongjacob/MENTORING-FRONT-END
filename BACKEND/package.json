@@ -1,0 +1,23 @@
+{
+  "name": "email_service",
+  "version": "1.0.0",
+  "description": "were users can subcribe to email",
+  "main": "server.ts",
+  "repository": "https://github.com/samueleffiongjacob/MENTORING-FRONT-END",
+  "author": "SAMUEL EFFIONG",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/dotenv": "^8.2.3",
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^22.10.3",
+    "@types/nodemailer": "^6.4.17"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.3",
+    "nodemailer": "^6.9.16"
+  }
+}

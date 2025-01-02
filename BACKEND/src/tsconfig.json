@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                          // Specify ECMAScript target version.
+      "module": "ES6",                          // Specify module code generation.
+      "moduleResolution": "node",              // Resolve modules like Node.js.
+      "outDir": "./dist",                       // Redirect output to the 'dist' folder.
+      "rootDir": "./src",                       // Specify the root folder for TypeScript files.
+      "strict": true,                           // Enable all strict type-checking options.
+      "esModuleInterop": true,                  // Enable interoperation between CommonJS and ES Modules.
+      "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased imports.
+      "skipLibCheck": true,                     // Skip type checking of declaration files.
+      "allowSyntheticDefaultImports": true,     // Allow default imports from modules without default exports.
+      "resolveJsonModule": true,                // Include modules for importing `.json` files.
+      "noImplicitAny": false                    // Allow variables to have the type `any`.
+    },
+    "include": ["src/**/*"],                    // Include all files in the 'src' folder.
+    "exclude": ["node_modules", "dist"]         // Exclude the 'node_modules' and 'dist' folders.
+  }
+  
