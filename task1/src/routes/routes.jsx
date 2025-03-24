@@ -8,7 +8,7 @@ const Navigations = () => {
     return (
       <Router>
         {/* Navber links*/}
-        <Heaader />
+        <Heaader />  
 
         {/* pages */}
         <Routes>

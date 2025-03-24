@@ -107,5 +107,11 @@
     .book .fa-arrow-right{
         margin-left: 3rem;
     }
+    .subContainer{
+        width: 100%;
+        padding: 15px; /* Ensure spacing inside the subContainer */
+        box-sizing: border-box;
+        margin-bottom: 1px; /* Push the next container down */
+    }
 }
 }
